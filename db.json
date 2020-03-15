@@ -31,21 +31,24 @@
       "title": "Título deportes 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel ipsum ac est posuere vehicula. Vestibulum mollis, massa ac laoreet interdum, justo orci tincidunt ante, nec commodo dolor dolor vel quam. Suspendisse at leo sit amet velit elementum tempus tempor id massa. Morbi placerat suscipit tempor. Morbi dictum mollis nisi, vitae lobortis turpis maximus id. Vivamus nec ipsum nisl. Curabitur molestie elit libero, sed facilisis ligula mattis ut.",
       "favorite": false,
-      "color": ""
+      "color": "",
+      "categoryId": 1
     },
     {
       "id": "2",
       "title": "Título deportes 2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel ipsum ac est posuere vehicula. Vestibulum mollis, massa ac laoreet interdum, justo orci tincidunt ante, nec commodo dolor dolor vel quam. Suspendisse at leo sit amet velit elementum tempus tempor id massa. Morbi placerat suscipit tempor. Morbi dictum mollis nisi, vitae lobortis turpis maximus id. Vivamus nec ipsum nisl. Curabitur molestie elit libero, sed facilisis ligula mattis ut.",
       "favorite": false,
-      "color": ""
+      "color": "",
+      "categoryId": 1
     },
     {
       "id": "3",
       "title": "Título deportes 3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel ipsum ac est posuere vehicula. Vestibulum mollis, massa ac laoreet interdum, justo orci tincidunt ante, nec commodo dolor dolor vel quam. Suspendisse at leo sit amet velit elementum tempus tempor id massa. Morbi placerat suscipit tempor. Morbi dictum mollis nisi, vitae lobortis turpis maximus id. Vivamus nec ipsum nisl. Curabitur molestie elit libero, sed facilisis ligula mattis ut.",
       "favorite": false,
-      "color": ""
+      "color": "",
+      "categoryId": 1
     }
   ],
   "newsByType-2": [
@@ -54,14 +57,16 @@
       "title": "Título economía 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel ipsum ac est posuere vehicula. Vestibulum mollis, massa ac laoreet interdum, justo orci tincidunt ante, nec commodo dolor dolor vel quam. Suspendisse at leo sit amet velit elementum tempus tempor id massa. Morbi placerat suscipit tempor. Morbi dictum mollis nisi, vitae lobortis turpis maximus id. Vivamus nec ipsum nisl. Curabitur molestie elit libero, sed facilisis ligula mattis ut.",
       "favorite": false,
-      "color": ""
+      "color": "",
+      "categoryId": 2
     },
     {
       "id": "5",
       "title": "Título economía 2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel ipsum ac est posuere vehicula. Vestibulum mollis, massa ac laoreet interdum, justo orci tincidunt ante, nec commodo dolor dolor vel quam. Suspendisse at leo sit amet velit elementum tempus tempor id massa. Morbi placerat suscipit tempor. Morbi dictum mollis nisi, vitae lobortis turpis maximus id. Vivamus nec ipsum nisl. Curabitur molestie elit libero, sed facilisis ligula mattis ut.",
       "favorite": false,
-      "color": ""
+      "color": "",
+      "categoryId": 2
     }
   ],
   "newsByType-3": [
@@ -70,21 +75,24 @@
       "title": "Título política 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel ipsum ac est posuere vehicula. Vestibulum mollis, massa ac laoreet interdum, justo orci tincidunt ante, nec commodo dolor dolor vel quam. Suspendisse at leo sit amet velit elementum tempus tempor id massa. Morbi placerat suscipit tempor. Morbi dictum mollis nisi, vitae lobortis turpis maximus id. Vivamus nec ipsum nisl. Curabitur molestie elit libero, sed facilisis ligula mattis ut.",
       "favorite": false,
-      "color": ""
+      "color": "",
+      "categoryId": 3
     },
     {
       "id": "7",
       "title": "Título política 2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel ipsum ac est posuere vehicula. Vestibulum mollis, massa ac laoreet interdum, justo orci tincidunt ante, nec commodo dolor dolor vel quam. Suspendisse at leo sit amet velit elementum tempus tempor id massa. Morbi placerat suscipit tempor. Morbi dictum mollis nisi, vitae lobortis turpis maximus id. Vivamus nec ipsum nisl. Curabitur molestie elit libero, sed facilisis ligula mattis ut.",
       "favorite": false,
-      "color": ""
+      "color": "",
+      "categoryId": 3
     },
     {
       "id": "8",
       "title": "Título política 3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel ipsum ac est posuere vehicula. Vestibulum mollis, massa ac laoreet interdum, justo orci tincidunt ante, nec commodo dolor dolor vel quam. Suspendisse at leo sit amet velit elementum tempus tempor id massa. Morbi placerat suscipit tempor. Morbi dictum mollis nisi, vitae lobortis turpis maximus id. Vivamus nec ipsum nisl. Curabitur molestie elit libero, sed facilisis ligula mattis ut.",
       "favorite": false,
-      "color": ""
+      "color": "",
+      "categoryId": 3
     }
   ],
   "newsByType-4": [
@@ -93,7 +101,8 @@
       "title": "Título sociedad 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel ipsum ac est posuere vehicula. Vestibulum mollis, massa ac laoreet interdum, justo orci tincidunt ante, nec commodo dolor dolor vel quam. Suspendisse at leo sit amet velit elementum tempus tempor id massa. Morbi placerat suscipit tempor. Morbi dictum mollis nisi, vitae lobortis turpis maximus id. Vivamus nec ipsum nisl. Curabitur molestie elit libero, sed facilisis ligula mattis ut.",
       "favorite": false,
-      "color": ""
+      "color": "",
+      "categoryId": 4
     }
   ],
   "newsByType-1-1": {

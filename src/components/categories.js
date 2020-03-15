@@ -13,27 +13,33 @@ export default class Categories extends React.Component {
       this.setState({ categories: res.data });
     });
   }
-  handleClick = news => {
-    this.props.filterNews(news);
+  handleClick = (news, isChecked, id) => {
+    this.props.filterNews(news, isChecked, id);
   };
 
   render() {
     return (
-      <ul>
+      <div>
         {this.state.categories.map((cat, index) => (
-          <li
-            key={index}
-            onClick={() => {
-              getNews(cat.id).then(res => {
-                const news = res.data;
-                this.handleClick(news);
-              });
-            }}
-          >
-            {cat.title}
-          </li>
+          <div key={index}>
+            <input
+              onClick={ev => {
+                let isChecked = ev.currentTarget.checked;
+                getNews(cat.id).then(res => {
+                  const news = res.data;
+                  this.handleClick(news, isChecked, cat.id);
+                });
+              }}
+              type="checkbox"
+              id={cat.id}
+              name={cat.title}
+              value={cat.title}
+            />
+            <label htmlFor={cat.title}> {cat.title}</label>
+            <br />
+          </div>
         ))}
-      </ul>
+      </div>
     );
   }
 }

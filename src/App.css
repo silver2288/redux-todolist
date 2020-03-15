@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -28,17 +32,37 @@
   color: #61dafb;
 }
 
+section {
+  display: flex;
+  align-items: flex-start;
+}
+
 .container {
   width: 100%;
-  background: hotpink;
+  background: #f9f7f1;
+  height: 100vh;
 }
 .regionLeft {
-  width: 50%;
+  position: relative;
+  width: 20%;
+  height: 100%;
   float: left;
 }
 .regionRight {
-  width: 50%;
+  position: relative;
+  height: 100%;
   float: left;
+  overflow-y: auto;
+  border-left: 1px solid #2f2f2f;
+  width: calc(80% - 1px);
+}
+
+.regionRight article {
+  margin-left: 10px;
+}
+
+.post {
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {
