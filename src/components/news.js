@@ -1,5 +1,6 @@
 import React from "react";
-import getDetail from "../entities/Detail";
+import { Link } from "react-router-dom";
+// import getDetail from "../entities/Detail";
 
 export default class News extends React.Component {
   componentDidUpdate() {}
@@ -15,15 +16,16 @@ export default class News extends React.Component {
             key={index}
             newsid={el.id}
             className="post"
-            onClick={ev => {
-              getDetail(el.categoryId, el.id).then(res => {
-                const detail = res.data;
-                this.handleClick(detail);
-              });
-            }}
+            // onClick={() => {
+            //   getDetail(el.categoryId, el.id).then(res => {
+            //     const detail = res.data;
+            //     this.handleClick(detail);
+            //   });
+            // }}
           >
             <h4>{el.title}</h4>
             <p>{el.description}</p>
+            <Link to={`detail/${el.categoryId}/${el.id}`}>More Info </Link>
           </div>
         ))}
       </article>
