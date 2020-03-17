@@ -2,6 +2,7 @@ import React from "react";
 import getDetail from "../entities/Detail";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+
 export default class Detail extends React.Component {
   state = {
     id: null,
@@ -14,7 +15,6 @@ export default class Detail extends React.Component {
   componentDidMount() {
     getDetail(this.props.categoryid, this.props.id).then(res => {
       const detail = res.data;
-      console.log("favorite =>", detail.favorite);
       this.setState({
         id: detail.id,
         title: detail.title,
@@ -27,7 +27,6 @@ export default class Detail extends React.Component {
   render() {
     return (
       <div>
-        <h4>Componente Detalle</h4>
         <div className="title">
           <p>{this.state.title}</p>
           <span>
