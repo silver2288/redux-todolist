@@ -24,12 +24,18 @@ export default class Detail extends React.Component {
       });
     });
   }
+
+  handleClick(isFavorite) {
+    alert("paco");
+    console.log("isFavorite ", isFavorite);
+  }
+
   render() {
     return (
       <div>
         <div className="title">
           <p>{this.state.title}</p>
-          <span>
+          <span onClick={() => this.handleClick(this.state.favorite)}>
             {" "}
             {this.state.favorite ? (
               <FavoriteIcon style={{ color: "red" }} />

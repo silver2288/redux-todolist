@@ -8,7 +8,11 @@ export default class DetailView extends React.Component {
     const { params } = this.props.match;
     return (
       <div className="detail-container">
-        <DetailHeader />
+        <DetailHeader
+          goBack={() => {
+            this.props.history.goBack();
+          }}
+        />
         <Detail categoryid={params.categoryid} id={params.id} />
       </div>
     );

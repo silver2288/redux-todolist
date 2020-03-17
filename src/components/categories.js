@@ -13,8 +13,8 @@ export default class Categories extends React.Component {
       this.setState({ categories: res.data });
     });
   }
-  handleClick = (news, isChecked, id) => {
-    this.props.filterNews(news, isChecked, id);
+  handleClick = (news, isChecked, id, color) => {
+    this.props.filterNews(news, isChecked, id, color);
   };
 
   render() {
@@ -27,7 +27,7 @@ export default class Categories extends React.Component {
                 let isChecked = ev.currentTarget.checked;
                 getNews(cat.id).then(res => {
                   const news = res.data;
-                  this.handleClick(news, isChecked, cat.id);
+                  this.handleClick(news, isChecked, cat.id, cat.color);
                 });
               }}
               type="checkbox"
